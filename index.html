@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="my-header">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#my-skills">Skills</a></li>
+                    <li><a href="#my-education">Education</a></li>
+                    <li><a href="#slider-memes">Memes</a></li>
+                </ul>
+            </nav>
+    </header>
+        <main>
+            <section class="hero" id="about">
+                <div class="container hero__container">
+                    <div class="hero__about">
+                        <h1 class="hero__title">Darya Shauchonak</h1>
+                        <h2 class="h2__title">Frontend Developer</h2>
+                        <p class="hero__description">Hello! I'm a 19 year old junior frontend developer from Minsk. 
+                            I can characterize myself as a creative, open-minded and
+                            hard-working person, able to solve complex problems and
+                            be productive in teams.</p>
+                            <div class="hero__links">
+                                <a class="hero__link" href="https://github.com/dxarch" target="_blank">
+                                    <i class='bx bxl-github'></i>
+                                </a>
+                                <a class="hero__link" href="https://www.t.me/vvariss" target="_blank">
+                                    <i class='bx bxl-telegram' ></i>
+                                </a>
+                                <a class="hero__link" href="mailto:darya4shauch@gmail.com" target="_blank">
+                                    <i class='bx bxl-gmail' ></i>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="hero__box">
+                        <img class="hero-img" src="./images/avatar.png" alt="Darya Shauchonak photo">
+                    </div>
+                </div>
+            </section>
+            <section class="skills" id="my-skills">
+                <div class="container skills__container">
+                    <h2 class="h2__title">Skills</h2>
+                    <ul class="skills__list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Basic JavaScript</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="education" id="my-education">
+                <div class="container education__container">
+                    <h2 class="h2__title">Education</h2>
+                    <div class="education__info">
+                        <ul class="education__list">
+                            <li>Belarusian State University</li>
+                            <li>2020-2024</li>
+                            <li>Applied Informatics</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="projects">
+                <div class="container projects__container">
+                    <h2 class="h2__title">Projects</h2>
+                    <div class="projects__box">
+                        <p class="project__title">Product card component</p>
+                        <img class="project__image" src="./images/project-1.png" alt="project">
+                        <p class="project__title">JS Piano</p>
+                        <img class="project__image" src="./images/project-2.png" alt="project">
+                    </div>
+                </div>
+            </section>
+            <section class="memes" id="slider-memes">
+                <div class="slider__container">
+                    <h2 class="h2__title">My favourite memes</h2>
+                    <button class="arrow-prev"><i class='bx bxs-chevron-left'></i></button>
+                    <div class="slider__wrapper">
+                        <div class="slider">
+                            <img class="slider__image" src="images/meme-1.jpg" alt="meme-1">
+                        </div>
+                    </div>
+                    <button class="arrow-next"><i class='bx bxs-chevron-right'></i></button>  
+                </div>
+            </section>
+        </main>
+    <script src="scripts/burger-menu.js"></script>
+    <script src="scripts/slider.js"></script>
+</body>
+
+</html>
